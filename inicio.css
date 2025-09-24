@@ -1,15 +1,33 @@
 body{
-    background-color: black;
+    background-color: white;
     justify-content: center;
     align-items: center;
+
+}
+.zona {
+    width:1500px; 
+    height:700px; 
+    border:1px solid black;
+    position: relative;
+
 
 }
 
 img{
     background-color: transparent;
     position: absolute;
-    width: 3%;
     top: 150px;
     left: 150px;
+    width: 45px;
     image-rendering: pixelated;
+}
+
+.pared{
+    position: absolute;
+    top: 250px;
+    width: 650px;
+    height: 150px;
+    background-color: black;
+    color: black;
+
 }
