@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    background-color: transparent;
+    position: absolute;
+    width: 3%;
+    top: 150px;
+    left: 150px;
+    image-rendering: pixelated;
+}
